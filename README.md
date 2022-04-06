@@ -17,10 +17,14 @@ Descargas de retorno | BrasilDAT
 
 Com os dados descritos acima, foram geradas as seguintes figuras para a tempestade escolhida:
 
-* Imagens de *Constant Altitude Plan Position Indicator* (CAPPI) de 3 km de altura de refletividade;
-* Série temporal do perfil de refletividade máxima;
-* Ciclo de vida dos relâmpagos e da microfísica;
-* Evolução da estrutura elétrica;
-* Distribuição de fontes de Very High Frequency (VHF);
-* Distribuição de fontes de Very High Frequency (VHF) de um relâmpago;
-* Seção transversal vertical realizada em latitude e longitude do CAPPI de 3 km.
+Figura   | Código
+---------  | ------
+CAPPI de 3 km de altura de refletividade | rastreamento_tempestades_FCTH_lagrangeano.ipynb
+Série temporal do perfil de refletividade máxima          | plota_Time_x_Height_plots_Radar_FCTH_lagrangeano.ipynb
+Ciclo de vida dos relâmpagos e da microfísica | calcula_e_plota_microfisica_lagrangeano.ipynb
+Evolução da estrutura elétrica | plota_Estrutura_Eletrica_LMA_Temporal_lagrangeano.ipynb
+Distribuição de fontes de Very High Frequency (VHF)         | plota_LMA_3D_imagemradar_lagrangeano.ipynb
+Distribuição de fontes de Very High Frequency (VHF) de um relâmpago | plota_flashlma_individual_lagrangeano.ipynb
+Seção transversal vertical realizada em latitude e longitude do CAPPI de 3 km | latlon_slice_lagrangeano.ipynb
+
+
